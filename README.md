@@ -47,6 +47,12 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ---
 
+### you can check out the site at
+
+[Logger](https://azzam-logger.netlify.app/)
+
+---
+
 Build with ❤️ By Mohammad Al-Azzam 😃
 
 I hope you find it fun
