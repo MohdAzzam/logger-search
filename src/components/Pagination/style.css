@@ -1,0 +1,23 @@
+.pagination {
+  padding: 10px;
+  display: flex;
+  list-style: none;
+  outline: none;
+  box-shadow: 3px 3px 2px 2px rgb(0 0 0 / 10%);
+  justify-content: center;
+  margin: 3px;
+  border-radius: 7px;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background-color: #ecf0f8;
+  border-radius: 5px;
+  color: white;
+}

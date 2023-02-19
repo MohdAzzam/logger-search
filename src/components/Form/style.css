@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+.form .form-group label {
+  font-size: 12px;
+  font-weight: 700;
+}
+.form .form-group input,
+select {
+  padding: 5px 18px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form .form-group input[type="submit"],
+input[type="reset"] {
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #10489b;
+
+  margin: 0;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form .form-group input[type="reset"] {
+  background-color: #ca1919;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  text-align: center;
+}
